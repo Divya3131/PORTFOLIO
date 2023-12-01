@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(189, 62, 228);
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Home Section  */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(230, 67, 221);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(136, 233, 173);
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+.right ul li {
+    font-size: 1.1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #843cd6;
+    color: #fff;
+    padding: 10px  30px;
+    margin-right: 100px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.homeSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95vh;
+}
+
+.homeSection>div {
+    width: 50%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin: 100px;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: paleturquoise;
+}
+
+.rightSection {
+    margin: 20px;
+    margin-top: -20px;
+    width: 80%;
+    height: auto;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.purple {
+    color: pink;
+}
+
+
+
+/* About Section */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#about h2 {
+    color: burlywood;
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.aboutSection {
+    display: flex;
+    gap: 50px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+/* Contact Section */
+
+#contact {
+    height: 70vh;
+}
+
+#contact h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 150px 0;
+    color: aquamarine;
+}
+
+#contact .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact_way {
+    margin: 20px;
+    gap: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_way i {
+    margin-right: 10px;
+    font-size: 3rem;
+}
+
+.contact_way h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.contact_way a {
+    display: flex;
+    text-decoration: none;
+    color: pink;
+}
+
+footer {
+    padding: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
